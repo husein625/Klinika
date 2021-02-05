@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Klinika.DAL.Models.Pacijent>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <link href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+</head>
+
+<h1>Pacijenti</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Dodaj</a>
+</p>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.ImePrezime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatumRođenja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adresa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Spol)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImePrezime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DatumRođenja)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Adresa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Spol.Naziv)
+                </td>
+                <td>
+                    <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Izmjena</a> 
+                    <a class="btn btn-warning" asp-action="Delete" asp-route-id="@item.Id">Izbrisi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+

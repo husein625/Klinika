@@ -1,0 +1,11 @@
+D:\Projekti\Klinika\RDLCDesignReport\bin\Debug\RDLCDesignReport.exe.config
+D:\Projekti\Klinika\RDLCDesignReport\bin\Debug\RDLCDesignReport.exe
+D:\Projekti\Klinika\RDLCDesignReport\bin\Debug\RDLCDesignReport.pdb
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RDLCDesignReport.csprojAssemblyReference.cache
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RDLCDesignReport.Properties.Resources.resources
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RDLCDesignReport.csproj.GenerateResource.cache
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RdlCompile.cache
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RdlCompile.compiled
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RDLCDesignReport.csproj.CoreCompileInputs.cache
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RDLCDesignReport.exe
+D:\Projekti\Klinika\RDLCDesignReport\obj\Debug\RDLCDesignReport.pdb

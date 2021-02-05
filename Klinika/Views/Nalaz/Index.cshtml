@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Klinika.DAL.Models.Nalaz>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Nalazi</h1>
+
+@*<a asp-controller="Nalaz" asp-action="Create" asp-route-id="@ViewBag.prijemId">Create New</a>*@
+@Html.ActionLink("Dodaj", "Create", new { prijemId = ViewBag.prijemId }, new { @class = "btn btn-success" })
+
+
+
+
+
+
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">
+
+                @Html.DisplayNameFor(model => model.Opis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatumVrijeme)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Opis)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DatumVrijeme)
+                </td>
+
+                <td>
+
+                    <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Izmjena</a>
+                    <a class="btn btn-warning" asp-action="Delete" asp-route-id="@item.Id">Izbrisi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+<script>
+
+
+
+
+
+
+</script>

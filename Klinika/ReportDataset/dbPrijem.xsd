@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbPrijem" targetNamespace="http://tempuri.org/dbPrijem.xsd" xmlns:mstns="http://tempuri.org/dbPrijem.xsd" xmlns="http://tempuri.org/dbPrijem.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbPrijem" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dbPrijem" msprop:Generator_UserDSName="dbPrijem">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dbPrijem" msprop:Generator_TableClassName="dbPrijemDataTable" msprop:Generator_TableVarName="tabledbPrijem" msprop:Generator_RowChangedName="dbPrijemRowChanged" msprop:Generator_TablePropName="_dbPrijem" msprop:Generator_RowDeletingName="dbPrijemRowDeleting" msprop:Generator_RowChangingName="dbPrijemRowChanging" msprop:Generator_RowEvHandlerName="dbPrijemRowChangeEventHandler" msprop:Generator_RowDeletedName="dbPrijemRowDeleted" msprop:Generator_RowClassName="dbPrijemRow" msprop:Generator_UserTableName="dbPrijem" msprop:Generator_RowEvArgName="dbPrijemRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="DatumVrijeme" msprop:Generator_ColumnVarNameInTable="columnDatumVrijeme" msprop:Generator_ColumnPropNameInRow="DatumVrijeme" msprop:Generator_ColumnPropNameInTable="DatumVrijemeColumn" msprop:Generator_UserColumnName="DatumVrijeme" type="xs:string" minOccurs="0" />
+              <xs:element name="HitniPrijem" msprop:Generator_ColumnVarNameInTable="columnHitniPrijem" msprop:Generator_ColumnPropNameInRow="HitniPrijem" msprop:Generator_ColumnPropNameInTable="HitniPrijemColumn" msprop:Generator_UserColumnName="HitniPrijem" type="xs:string" minOccurs="0" />
+              <xs:element name="PacijentID" msprop:Generator_ColumnVarNameInTable="columnPacijentID" msprop:Generator_ColumnPropNameInRow="PacijentID" msprop:Generator_ColumnPropNameInTable="PacijentIDColumn" msprop:Generator_UserColumnName="PacijentID" type="xs:string" minOccurs="0" />
+              <xs:element name="LjekarID" msprop:Generator_ColumnVarNameInTable="columnLjekarID" msprop:Generator_ColumnPropNameInRow="LjekarID" msprop:Generator_ColumnPropNameInTable="LjekarIDColumn" msprop:Generator_UserColumnName="LjekarID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

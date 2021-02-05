@@ -1,0 +1,12 @@
+D:\Projekti\Klinika\Klinika.DAL\bin\Debug\netcoreapp3.1\Klinika.DAL.deps.json
+D:\Projekti\Klinika\Klinika.DAL\bin\Debug\netcoreapp3.1\Klinika.DAL.dll
+D:\Projekti\Klinika\Klinika.DAL\bin\Debug\netcoreapp3.1\Klinika.DAL.pdb
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.AssemblyInfoInputs.cache
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.AssemblyInfo.cs
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.csproj.CoreCompileInputs.cache
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.dll
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.pdb
+D:\Projekti\Klinika\Klinika.DAL\bin\Debug\netcoreapp3.1\Klinika.DAL.runtimeconfig.json
+D:\Projekti\Klinika\Klinika.DAL\bin\Debug\netcoreapp3.1\Klinika.DAL.runtimeconfig.dev.json
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.genruntimeconfig.cache
+D:\Projekti\Klinika\Klinika.DAL\obj\Debug\netcoreapp3.1\Klinika.DAL.csprojAssemblyReference.cache

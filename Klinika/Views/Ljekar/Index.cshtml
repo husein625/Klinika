@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Klinika.DAL.Models.Ljekar>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ljekari</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Dodaj</a>
+</p>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Ime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prezime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sifra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titula)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prezime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sifra)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titula.Naziv)
+                </td>
+                <td>
+                    <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Izmjena</a>
+                    <a class="btn btn-warning" asp-action="Delete" asp-route-id="@item.Id">Izbrisi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
